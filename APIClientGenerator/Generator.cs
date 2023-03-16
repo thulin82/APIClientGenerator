@@ -106,7 +106,8 @@ namespace APIClientGenerator
             return new CSharpClientGeneratorSettings
             {
                 UseBaseUrl = false,
-                GenerateSyncMethods = true
+                GenerateSyncMethods = true,
+                WrapResponses = false
             };
         }
 
